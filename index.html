@@ -1,783 +1,1392 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
 <head>
-
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<title>university</title>
-
-	<link rel="preconnect" href="https://fonts.gstatic.com/">
-
-	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-		rel="stylesheet">
-
-	<link
-		href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-		rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<link rel="stylesheet" href="style.css">
-	<!-- include theme color setting stylesheet -->
-	<link rel="stylesheet" href="css/colors.css">
-	<!-- include the site responsive stylesheet -->
-	<link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University of Nis</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/University of Nis Logo.svg">
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <!-- fontawesome 6.4.2 -->
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome.min.css">
+    <!-- bootstrap min css -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- swiper Css 10.2.0 -->
+    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <!-- Bootstrap 5.0.2 -->
+    <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
+    <!-- metismenu scss -->
+    <link rel="stylesheet" href="assets/css/vendor/metismenu.css">
+    <!-- nice select js -->
+    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
+    <!-- custom style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
-	<!-- pageWrapper -->
-	<div id="pageWrapper">
-		<!-- phStickyWrap -->
-		<div class="phStickyWrap">
-			<!-- pageHeader -->
-			<header id="pageHeader" class="py-2 py-lg-4 py-xl-6 headerFixer">
-				<div class="container">
-					<!-- pageNav -->
-					<nav id="pageNav" class="navbar navbar-expand-md navbar-dark border-0 p-0 rounded-0">
-						<!-- logo -->
-						<div class="logo flex-shrink-0 mr-3">
-							<a href="home.html">
-								<img src="images/ftLogo.svg" class="img-fluid imgsyghs" alt="Educa | Landing Page Template" >
-							</a>
-						</div>
-						<!-- pageMainNavCollapse -->
-						<div class="collapse navbar-collapse justify-content-end pageMainNavCollapse"
-							id="pageMainNavCollapse">
-							<!-- mainNavigation -->
-							<ul class="navbar-nav mainNavigation fontAlter">
-								<li class="nav-item active">
-									<a class="nav-link" href="#scrollToIntroBlock">Home</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#scrollToAboutUs">About Us</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#scrollToOurCourses">Our Courses</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#scrollToOurTeam">Our Team</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#scrollToOurStudents">Our Students</a>
-								</li>
-							</ul>
-						</div>
-						<!-- pageNavOpener -->
-						<button class="navbar-toggler pageNavOpener position-relative" type="button"
-							data-toggle="collapse" data-target="#pageMainNavCollapse"
-							aria-controls="pageMainNavCollapse" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
-					</nav>
-				</div>
-			</header>
-		</div>
-		<main>
-			<!-- scrollToIntroBlock -->
-			<div id="scrollToIntroBlock" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
-				<!-- introBlock -->
-				<section class="introBlock d-flex w-100 bgCover text-center position-relative text-white"
-					style="background-image: url(images/img01.jpg);">
-					<div class="alignHolder w-100 d-flex align-items-center">
-						<div class="align w-100 pt-20 pt-md-24 pt-lg-30 pt-xl-38 pb-3 pb-md-10">
-							<div class="container position-relative">
-								<div class="mxterWrap mx-auto">
-									<div class="wow fadeInDown">
-										<h1 class="text-white text-uppercase mb-3">
-											<span class="d-block headingTitle mb-1">Learn with us</span>
-											<span class="d-block">Study with experts</span>
-										</h1>
-									</div>
-									<div class="wow fadeInDown" data-wow-delay="0.5s">
-										<p>
-											Unlock your full potential and elevate your learning experience by studying with experts who offer personalized guidance and practical insights.</p>
-									</div>
-									<a href="javascript:void(0);"
-										class="btn btnTheme position-relative border-0 p-0 mt-4 wow bounceIn"
-										data-wow-delay="1s" data-hover="Grab Your Course">
-										<span class="d-block btnText">Grab Your Course</span>
-									</a>
-								</div>
-								<div class="position-relative catsWrap mx-auto mt-6 mt-md-0 wow flipInX"
-									data-wow-delay="1.5s">
-									<strong class="arrowTag arrowTag01 fontThird mb-4 mb-md-0 d-block">We provide many
-										types of courses <span
-											class="artgArrow1 position-absolute d-none d-md-block"><img
-												src="images/arrow1.png" alt="arrow"></span></strong>
-									<div class="row d-block mt-md-14">
-										<!-- ourCategorySlider -->
-										<div class="ourCategorySlider">
-											<div>
-												<div class="col-12">
-													<!-- catBoxColumn -->
-													<div
-														class="catBoxColumn position-relative rounded d-flex align-items-center justify-content-center w-100 mb-6">
-														<div class="alignHolder d-flex w-100 align-items-center">
-															<div class="align w-100">
-																<i
-																	class="icnWrap d-flex align-items-center justify-content-center fi mb-3 flaticon-internet"><span
-																		class="sr-only">icon</span></i>
-																<h2 class="text-white mb-0">
-																	<a href="javascript:void(0);">Data Analysis</a>
-																</h2>
-																<strong
-																	class="cbcTag position-absolute bg-purple text-white rounded font-weight-normal">+15</strong>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="col-12">
-													<!-- catBoxColumn -->
-													<div
-														class="catBoxColumn position-relative rounded d-flex align-items-center justify-content-center w-100 mb-6">
-														<div class="alignHolder d-flex w-100 align-items-center">
-															<div class="align w-100">
-																<i
-																	class="icnWrap d-flex align-items-center justify-content-center fi mb-3 flaticon-fingerprint"><span
-																		class="sr-only">icon</span></i>
-																<h2 class="text-white mb-0">
-																	<a href="javascript:void(0);">Graphic Design</a>
-																</h2>
-																<strong
-																	class="cbcTag position-absolute bg-warning text-white rounded font-weight-normal">+23</strong>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="col-12">
-													<!-- catBoxColumn -->
-													<div
-														class="catBoxColumn position-relative rounded d-flex align-items-center justify-content-center w-100 mb-6">
-														<div class="alignHolder d-flex w-100 align-items-center">
-															<div class="align w-100">
-																<i
-																	class="icnWrap d-flex align-items-center justify-content-center fi mb-3 flaticon-smartphone-6"><span
-																		class="sr-only">icon</span></i>
-																<h2 class="text-white mb-0">
-																	<a href="javascript:void(0);">Mobile App</a>
-																</h2>
-																<strong
-																	class="cbcTag position-absolute bg-success text-white rounded font-weight-normal">+23</strong>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="col-12">
-													<!-- catBoxColumn -->
-													<div
-														class="catBoxColumn position-relative rounded d-flex align-items-center justify-content-center w-100 mb-6">
-														<div class="alignHolder d-flex w-100 align-items-center">
-															<div class="align w-100">
-																<i
-																	class="icnWrap d-flex align-items-center justify-content-center fi mb-3 flaticon-photo-camera"><span
-																		class="sr-only">icon</span></i>
-																<h2 class="text-white mb-0">
-																	<a href="javascript:void(0);">Photography</a>
-																</h2>
-																<strong
-																	class="cbcTag position-absolute bg-info text-white rounded font-weight-normal">+12</strong>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="col-12">
-													<!-- catBoxColumn -->
-													<div
-														class="catBoxColumn position-relative rounded d-flex align-items-center justify-content-center w-100 mb-6">
-														<div class="alignHolder d-flex w-100 align-items-center">
-															<div class="align w-100">
-																<i
-																	class="icnWrap d-flex align-items-center justify-content-center fi mb-3 flaticon-fingerprint"><span
-																		class="sr-only">icon</span></i>
-																<h2 class="text-white mb-0">
-																	<a href="javascript:void(0);">Graphic Design</a>
-																</h2>
-																<strong
-																	class="cbcTag position-absolute bg-warning text-white rounded font-weight-normal">+23</strong>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div>
-												<div class="col-12">
-													<!-- catBoxColumn -->
-													<div
-														class="catBoxColumn position-relative rounded d-flex align-items-center justify-content-center w-100 mb-6">
-														<div class="alignHolder d-flex w-100 align-items-center">
-															<div class="align w-100">
-																<i
-																	class="icnWrap d-flex align-items-center justify-content-center fi mb-3 flaticon-smartphone-6"><span
-																		class="sr-only">icon</span></i>
-																<h2 class="text-white mb-0">
-																	<a href="javascript:void(0);">Mobile App</a>
-																</h2>
-																<strong
-																	class="cbcTag position-absolute bg-success text-white rounded font-weight-normal">+23</strong>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-			<!-- scrollToAboutUs -->
-			<div id="scrollToAboutUs" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
-				<!-- aboutUsBlock -->
-				<article class="aboutUsBlock pt-7 pt-md-15 pt-lg-20 pt-xl-29">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-6 order-md-2 wow slideInRight" data-wow-delay="0.5s">
-								<!-- headingHead -->
-								<header class="headingHead hasPattern mb-6 mb-xl-9 position-relative pb-4">
-									<h2 class="mb-4">
-										<strong class="font-weight-normal d-block headTitle mb-2">About Us</strong>
-										<span class="d-block">We provide many types of courses</span>
-									</h2>
-									<p>Explore our diverse range of courses tailored to suit various interests and learning objectives.</p>
-								</header>
-								<!-- featuresList -->
-								<ul class="list-unstyled featuresList d-flex flex-wrap">
-									<li>Online Education</li>
-									<li>Hands on Research</li>
-									<li>Unlimited Access</li>
-									<li>Detiacted to Your Success</li>
-									<li>Certified Teachers</li>
-									<li>Classic Experience</li>
-								</ul>
-							</div>
-							<div class="col-12 col-md-6 order-md-1 d-flex align-items-end wow slideInLeft"
-								data-wow-delay="0.5s">
-								<!-- imgHolder  -->
-								<div class="imgHolder position-relative mt-4 mt-md-n9 mx-auto mx-md-0">
-									<span class="wrap overflow-hidden d-block ml-11 ml-lg-21">
-										<img src="images/img02.jpg" class="img-fluid" alt="image description">
-									</span>
-									<span class="elemsWrap position-absolute">
-										<img src="images/pattern01.png" class="img-fluid" alt="image description">
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-			</div>
-			<!-- scrollToOurCourses -->
-			<div id="scrollToOurCourses" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
-				<!-- coursesBlock -->
-				<section class="bg-light coursesBlock pt-7 pb-3 pt-md-10 pb-md-6 pt-lg-13 pb-lg-10 pt-xl-19 pb-xl-14"
-					style="background-image: url(images/pattern04.png);">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 wow fadeInDown"
-								data-wow-duration="1s" data-wow-delay="0.5s">
-								<!-- headingHead -->
-								<header class="headingHead hasPattern mb-8 mb-lg-12 position-relative pb-4 text-center">
-									<h2 class="mb-4">
-										<strong class="font-weight-normal d-block headTitle mb-2">Our Courses</strong>
-										<span class="d-block">We provide alot of courses</span>
-									</h2>
-									<p>Explore our extensive array of courses, offering diverse subjects and tailored learning experiences to suit every interest and skill level.</p>
-								</header>
-							</div>
-						</div>
-						<div class="row justify-content-center wow fadeInDown" data-wow-duration="1s"
-							data-wow-delay="1s">
-							<div class="col-12 col-md-4 d-md-flex">
-								<!-- postColumn -->
-								<article
-									class="postColumn position-relative overflow-hidden rounded-lg d-flex w-100 flex-column bg-white mb-6 p-4 p-lg-8 mx-auto mx-md-0">
-									<div class="heitherWrap flex-grow-1">
-										<strong
-											class="pColumnTag rounded-lg position-absolute text-white fontAlter">Free</strong>
-										<div class="imgHolder mb-4 mb-lg-7 mx-n4 mt-n4 mx-lg-n8 mt-lg-n8">
-											<img src="images/img03.jpg" class="img-fluid w-100" alt="image description">
-										</div>
-										<header class="pColumnHead mb-4">
-											<h3 class="mb-2">
-												<a href="javascript:void(0);">Basic Marketing</a>
-											</h3>
-											<h4>Mark Smith</h4>
-										</header>
-										<p>Basic Marketing lays the groundwork for business success by understanding markets, crafting compelling value propositions, and effectively engaging target audiences.</p>
-									</div>
-									<footer class="pColumnFoot fontAlter mt-2 pt-3">
-										<ul class="list-unstyled d-flex flex-wrap mb-0 align-items-center">
-											<li>
-												<a href="javascript:void(0);">
-													<i class="far fa-file-video icn mr-1"><span
-															class="sr-only">icon</span></i>
-													12 Lessons
-												</a>
-											</li>
-											<li>
-												<i class="far fa-clock icn mr-1"><span class="sr-only">icon</span></i>
-												18 Hours
-											</li>
-										</ul>
-									</footer>
-								</article>
-							</div>
-							<div class="col-12 col-md-4 d-md-flex">
-								<!-- postColumn -->
-								<article
-									class="postColumn position-relative overflow-hidden rounded-lg d-flex w-100 flex-column bg-white mb-6 p-4 p-lg-8 mx-auto mx-md-0">
-									<div class="heitherWrap flex-grow-1">
-										<strong
-											class="pColumnTag rounded-lg position-absolute text-white fontAlter">$30</strong>
-										<div class="imgHolder mb-4 mb-lg-7 mx-n4 mt-n4 mx-lg-n8 mt-lg-n8">
-											<img src="images/img04.jpg" class="img-fluid w-100" alt="image description">
-										</div>
-										<header class="pColumnHead mb-4">
-											<h3 class="mb-2">
-												<a href="javascript:void(0);">Business English</a>
-											</h3>
-											<h4>Vera Duncan</h4>
-										</header>
-										<p>Business English equips professionals with the linguistic skills and cultural awareness necessary for effective communication in the global marketplace.</p>
-									</div>
-									<footer class="pColumnFoot fontAlter mt-2 pt-3">
-										<ul class="list-unstyled d-flex flex-wrap mb-0 align-items-center">
-											<li>
-												<a href="javascript:void(0);">
-													<i class="far fa-file-video icn mr-1"><span
-															class="sr-only">icon</span></i>
-													12 Lessons
-												</a>
-											</li>
-											<li>
-												<i class="far fa-clock icn mr-1"><span class="sr-only">icon</span></i>
-												25 Hours
-											</li>
-										</ul>
-									</footer>
-								</article>
-							</div>
-							<div class="col-12 col-md-4 d-md-flex">
-								<!-- postColumn -->
-								<article
-									class="postColumn position-relative overflow-hidden rounded-lg d-flex w-100 flex-column bg-white mb-6 p-4 p-lg-8 mx-auto mx-md-0">
-									<div class="heitherWrap flex-grow-1">
-										<strong
-											class="pColumnTag rounded-lg position-absolute text-white fontAlter">$30</strong>
-										<div class="imgHolder mb-4 mb-lg-7 mx-n4 mt-n4 mx-lg-n8 mt-lg-n8">
-											<img src="images/img05.jpg" class="img-fluid w-100" alt="image description">
-										</div>
-										<header class="pColumnHead mb-4">
-											<h3 class="mb-2">
-												<a href="javascript:void(0);">IT Foundations</a>
-											</h3>
-											<h4>Cooper Moore</h4>
-										</header>
-										<p>IT Foundations encompasses core concepts essential for understanding Information Technology fundamentals, paving the way for deeper exploration and mastery in the field.</p>
-									</div>
-									<footer class="pColumnFoot fontAlter mt-2 pt-3">
-										<ul class="list-unstyled d-flex flex-wrap mb-0 align-items-center">
-											<li>
-												<a href="javascript:void(0);">
-													<i class="far fa-file-video icn mr-1"><span
-															class="sr-only">icon</span></i>
-													20 Lessons
-												</a>
-											</li>
-											<li>
-												<i class="far fa-clock icn mr-1"><span class="sr-only">icon</span></i>
-												11 Hours
-											</li>
-										</ul>
-									</footer>
-								</article>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-			<!-- completionBlock -->
-			<section
-				class="completionBlock position-relative bg-dark text-white pt-12 pb-2 pt-md-22 pb-md-22 overflow-hidden">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-lg-6 wow slideInLeft" data-wow-delay="0.5s">
-							<!-- vidWrap -->
-							<div
-								class="vidWrap position-relative overflow-hidden rounded-lg mx-auto mx-lg-0 mb-6 mb-md-0">
-								<a href="https://www.youtube.com/watch?v=UVe3NsAD9RA" data-fancybox>
-									<img src="images/img06.jpg" class="img-fluid w-100 rounded-lg"
-										alt="image description">
-									<span
-										class="icnPlay position-absolute d-flex align-items-center justify-content-center rounded-circle text-dark">
-										<i class="fas fa-play"><span class="sr-only">icon</span></i>
-									</span>
-									<strong
-										class="arrowTag text-center arrowTag02 fontThird mb-4 mb-md-0 d-block position-absolute">Watch
-										Overview in 40 Second <span
-											class="artgArrow2 position-absolute d-none d-md-block"><img
-												src="images/arrow2.png" alt="arrow"></span></strong>
-								</a>
-							</div>
-						</div>
-						<div class="col-12 col-lg-6 d-flex wow slideInRight" data-wow-delay="0.5s">
-							<!-- countListItems -->
-							<ul
-								class="list-unstyled countListItems d-flex flex-wrap align-items-center flex-grow-1 pt-md-16">
-								<li>
-									<!-- countColumn -->
-									<div class="countColumn type1">
-										<h2 class="fontFourth mb-5"><span class="dataCount">265</span>+</h2>
-										<h3>Complete Courses</h3>
-										<p>Complete Courses provide skills for learners to excel comprehensively in chosen fields.</p>
-									</div>
-								</li>
-								<li>
-									<!-- countColumn -->
-									<div class="countColumn type2">
-										<h2 class="fontFourth mb-5"><span class="dataCount">98</span>%</h2>
-										<h3>Students Satisfection</h3>
-										<p>Student satisfaction indicates effectiveness of education, fostering engagement and learning.</p>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<span class="bgMap position-absolute inaccessible">
-					<img src="images/img07.png" class="img-fluid" alt="map">
-				</span>
-				<span class="ronder rouder1 inaccessible position-absolute">
-					<img src="images/pattern05.png" alt="image">
-				</span>
-				<span class="ronder rouder2 inaccessible position-absolute">
-					<img src="images/pattern06.png" alt="image">
-				</span>
-			</section>
-			<!-- scrollToOurTeam -->
-			<div id="scrollToOurTeam" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
-				<!-- teamBlock -->
-				<section class="teamBlock pt-6 pb-3 pt-md-9 pb-md-6 pt-lg-13 pb-lg-10 pt-xl-19 pb-xl-14">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 wow fadeInDown"
-								data-wow-duration="1s" data-wow-delay="0.5s">
-								<!-- headingHead -->
-								<header class="headingHead hasPattern mb-8 mb-lg-12 position-relative pb-4 text-center">
-									<h2 class="mb-4">
-										<strong class="font-weight-normal d-block headTitle mb-2">Our Team</strong>
-										<span class="d-block">The Best Tutors in Town</span>
-									</h2>
-									<p>"Our Team comprises the best tutors in town, dedicated to empowering students with exceptional learning experiences."</p>
-								</header>
-							</div>
-						</div>
-						<div class="row justify-content-center wow fadeInDown" data-wow-duration="1s"
-							data-wow-delay="1s">
-							<div class="col-12 col-md-4">
-								<!-- teamColumn -->
-								<article
-									class="teamColumn rounded overflow-hidden position-relative bg-light p-4 p-lg-8 mb-6 mx-auto mx-md-0">
-									<div class="imgHolder mb-5 mb-lg-7 mx-n4 mt-n4 mx-lg-n8 mt-lg-n8">
-										<img src="images/img08.jpg" class="w-100 img-fluid" alt="image description">
-									</div>
-									<h3 class="mb-1">
-										<a href="javascript:void(0);">Mark Smith</a>
-									</h3>
-									<h4 class="mb-0">Designer</h4>
-								</article>
-							</div>
-							<div class="col-12 col-md-4">
-								<!-- teamColumn -->
-								<article
-									class="teamColumn rounded overflow-hidden position-relative bg-light p-4 p-lg-8 mb-6 mx-auto mx-md-0">
-									<div class="imgHolder mb-5 mb-lg-7 mx-n4 mt-n4 mx-lg-n8 mt-lg-n8">
-										<img src="images/img09.jpg" class="w-100 img-fluid" alt="image description">
-									</div>
-									<h3 class="mb-1">
-										<a href="javascript:void(0);">Vera Duncan</a>
-									</h3>
-									<h4 class="mb-0">Web Developer</h4>
-								</article>
-							</div>
-							<div class="col-12 col-md-4">
-								<!-- teamColumn -->
-								<article
-									class="teamColumn rounded overflow-hidden position-relative bg-light p-4 p-lg-8 mb-6 mx-auto mx-md-0">
-									<div class="imgHolder mb-5 mb-lg-7 mx-n4 mt-n4 mx-lg-n8 mt-lg-n8">
-										<img src="images/img10.jpg" class="w-100 img-fluid" alt="image description">
-									</div>
-									<h3 class="mb-1">
-										<a href="javascript:void(0);">Bryce Vaughn</a>
-									</h3>
-									<h4 class="mb-0">Professor</h4>
-								</article>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-			<!-- scrollToOurStudents -->
-			<div id="scrollToOurStudents" class="mt-n12 pt-12 mt-lg-n16 pt-lg-16 mt-xl-n20 pt-xl-20">
-				<!-- studentsBlock -->
-				<section class="studentsBlock bg-light pt-7 pb-5 pt-md-10 pb-md-9 pt-lg-14 pb-lg-12 pt-xl-19 pb-xl-17"
-					style="background-image: url(images/pattern04.png);">
-					<div class="container">
-						<div class="row">
-							<div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3 wow fadeInDown"
-								data-wow-duration="1s" data-wow-delay="0.5s">
-								<!-- headingHead -->
-								<header class="headingHead hasPattern mb-8 mb-lg-12 position-relative pb-4 text-center">
-									<h2 class="mb-4">
-										<strong class="font-weight-normal d-block headTitle mb-2">Our Students</strong>
-										<span class="d-block">Students Satisfection</span>
-									</h2>
-									<p>"Our students' satisfaction is paramount, reflecting our commitment to delivering exceptional educational experiences and support."</p>
-								</header>
-							</div>
-						</div>
-						<div class="row d-block wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s">
-							<!-- studentsSaySlider -->
-							<div class="studentsSaySlider">
-								<div>
-									<div class="col-12">
-										<!-- sayQuote -->
-										<blockquote class="sayQuote position-relative pl-10">
-											<div class="imgHolder rounded-circle position-absolute">
-												<img src="images/img11.jpg" class="img-fluid rounded-circle"
-													alt="image">
-												<i
-													class="fas fa-quote-left icnQuote rounded-circle d-flex align-items-center justify-content-center position-absolute"><span
-														class="sr-only">icon</span></i>
-											</div>
-											<div class="bg-white d-flex flex-wrap wrap">
-												<q>"Our experience with the course exceeded expectations. Excellent content, supportive instructors, and a conducive learning environment ensured our satisfaction."</q>
-												<cite>
-													<strong class="h d-block h3 mb-1">Mark Smith</strong>
-													<strong class="d-block subtitle">Envato Inc</strong>
-												</cite>
-											</div>
-										</blockquote>
-									</div>
-								</div>
-								<div>
-									<div class="col-12">
-										<!-- sayQuote -->
-										<blockquote class="sayQuote position-relative pl-10">
-											<div class="imgHolder rounded-circle position-absolute">
-												<img src="images/img12.jpg" class="img-fluid rounded-circle"
-													alt="image">
-												<i
-													class="fas fa-quote-left icnQuote rounded-circle d-flex align-items-center justify-content-center position-absolute"><span
-														class="sr-only">icon</span></i>
-											</div>
-											<div class="bg-white d-flex flex-wrap wrap">
-												<q>"Our experience with the course exceeded expectations. Excellent content, supportive instructors, and a conducive learning environment ensured our satisfaction."</q>
-												<cite>
-													<strong class="h d-block h3 mb-1">Vera Duncan</strong>
-													<strong class="d-block subtitle">PayPal Inc</strong>
-												</cite>
-											</div>
-										</blockquote>
-									</div>
-								</div>
-								<div>
-									<div class="col-12">
-										<!-- sayQuote -->
-										<blockquote class="sayQuote position-relative pl-10">
-											<div class="imgHolder rounded-circle position-absolute">
-												<img src="images/img11.jpg" class="img-fluid rounded-circle"
-													alt="image">
-												<i
-													class="fas fa-quote-left icnQuote rounded-circle d-flex align-items-center justify-content-center position-absolute"><span
-														class="sr-only">icon</span></i>
-											</div>
-											<div class="bg-white d-flex flex-wrap wrap">
-												<q>"Our experience with the course exceeded expectations. Excellent content, supportive instructors, and a conducive learning environment ensured our satisfaction."</q>
-												<cite>
-													<strong class="h d-block h3 mb-1">Mark Smith</strong>
-													<strong class="d-block subtitle">Envato Inc</strong>
-												</cite>
-											</div>
-										</blockquote>
-									</div>
-								</div>
-								<div>
-									<div class="col-12">
-										<!-- sayQuote -->
-										<blockquote class="sayQuote position-relative pl-10">
-											<div class="imgHolder rounded-circle position-absolute">
-												<img src="images/img12.jpg" class="img-fluid rounded-circle"
-													alt="image">
-												<i
-													class="fas fa-quote-left icnQuote rounded-circle d-flex align-items-center justify-content-center position-absolute"><span
-														class="sr-only">icon</span></i>
-											</div>
-											<div class="bg-white d-flex flex-wrap wrap">
-												<q>"Our experience with the course exceeded expectations. Excellent content, supportive instructors, and a conducive learning environment ensured our satisfaction."</q>
-												<cite>
-													<strong class="h d-block h3 mb-1">Vera Duncan</strong>
-													<strong class="d-block subtitle">PayPal Inc</strong>
-												</cite>
-											</div>
-										</blockquote>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-			<!-- grabBlock -->
-			<section class="grabBlock text-center position-relative bg-cover text-white d-flex w-100 bgCover"
-				style="background-image: url(images/img01.jpg);">
-				<div class="align-holder positon-relative d-flex w-100 align-items-center">
-					<div class="align w-100 py-6">
-						<div class="container">
-							<div class="row">
-								<div class="col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
-									<!-- headingHead -->
-									<header class="headingHead wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s">
-										<h2 class="mb-3 h1 text-white text-uppercase">
-											<strong class="d-block fwSemi headTitle mb-1 text-white">Learn
-												easier</strong>
-											<span class="d-block">We Can Teach You!</span>
-										</h2>
-										<p>Unlock your full potential and elevate your learning experience by studying with experts who offer personalized guidance and practical insights.</p>
-										<a href="javascript:void(0);"
-											class="btn btnTheme position-relative border-0 p-0 mt-4"
-											data-hover="Grab Your Course">
-											<span class="d-block btnText">Grab Your Course</span>
-										</a>
-										<strong
-											class="arrowTag text-center arrowTag03 mt-6 fontThird mb-4 mb-md-0 d-block position-relative mx-auto"><i
-												class="fas fa-info-circle d-block mb-2"><span
-													class="sr-only">icon</span></i>We provide many types of courses
-											<span class="artgArrow3 position-absolute d-none d-md-block"><img
-													src="images/arrow2.png" alt="arrow"></span></strong>
-									</header>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-		<!-- ftAreaWrap -->
-		<div class="ftAreaWrap bg-light">
-	
-			<footer id="pageFooter"
-				class="pt-28 text-center text-md-left pb-7 pt-md-11 pb-lg-10 pt-xl-17 pb-xl-16 position-relative">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-md-3 order-md-2">
-						
-							<nav class="ftNav">
-								<h3 class="mb-7">Help Center</h3>
-								<ul class="list-unstyled">
-									<li>
-										<a href="javascript:void(0);">Our Company</a>
-									</li>
-									<li>
-										<a href="javascript:void(0);">Our Location</a>
-									</li>
-									<li>
-										<a href="javascript:void(0);">Support Center</a>
-									</li>
-								</ul>
-							</nav>
-						</div>	
-						<div class="col-12 col-md-3 order-md-3">
-							<!-- ftNav -->
-							<nav class="ftNav">
-								<h3 class="mb-7">Our Courses</h3>
-								<ul class="list-unstyled">
-									<li>
-										<a href="javascript:void(0);">Basic Marketing</a>
-									</li>
-									<li>
-										<a href="javascript:void(0);">Business English</a>
-									</li>
-									<li>
-										<a href="javascript:void(0);">IT Foundations</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-						<div class="col-12 col-md-3 order-md-4">
-							<h3 class="mb-7">Social Media</h3>
-							<!-- ftSocialNetworks -->
-							<ul
-								class="list-unstyled ftSocialNetworks d-flex align-items-center flex-wrap justify-content-center justify-content-md-start">
-								<li>
-									<a href="javascript:void(0);">
-										<i class="fab fa-facebook-f"><span class="sr-only">icon</span></i>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">
-										<i class="fab fa-twitter"><span class="sr-only">icon</span></i>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">
-										<i class="fab fa-instagram"><span class="sr-only">icon</span></i>
-									</a>
-								</li>
-								<li>
-									<a href="javascript:void(0);">
-										<i class="fab fa-vimeo-v"><span class="sr-only">icon</span></i>
-									</a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-12 col-md-3 order-md-1 position-static">
-							<!-- ftLogo -->
-							<div class="ftLogo mb-7 mt-1 pr-md-8">
-								<a href="home.html">
-									<img src="images/ftLogo.svg" width="30%" height="57" alt="logo">
-								</a>
-							</div>
-							<!-- copyright -->
-							<div class="fontAlter">
-								<p><strong class="fwSemi">2024 &copy; <a href="home.html">Digixito</a>. All rights
-										reserved.</strong></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
-	<!-- include jQuery library -->
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<!-- include bootstrap popper JavaScript -->
-	<script src="js/popper.min.js"></script>
-	<!-- include bootstrap JavaScript -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- include custom JavaScript -->
-	<script src="js/jqueryCustom.js"></script>
-	<!-- include fontAwesome -->
-	<script src="../../../kit.fontawesome.com/391f644c42.js"></script>
-</body>
+<body class="page">
+    <!-- header area start -->
+    <header class="header header__sticky v__1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="header__wrapper">
+                        <div class="header__left">
+                            <div class="header__logo">
+                                <a href="index.html" class="header__logo--link">
+                                    <img src="assets/images/logo/University of Nis White Logo.svg" class="navbimages1"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header__menu">
+                            <div class="navigation">
+                                <nav class="navigation__menu">
+                                    <ul>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#about" class="navigation__menu--item__link">About</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#course" class="navigation__menu--item__link">Course</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#serbia" class="navigation__menu--item__link">Serbia</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#testimonial" class="navigation__menu--item__link">Testimonial</a>
+                                        </li>
+                                        <li class="navigation__menu--item has-child has-arrow">
+                                            <a href="#contact" class="navigation__menu--item__link">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div id="menu-btn" class="menu__trigger">
+                            <img src="assets/images/icon/bar__line.svg" alt="bar">
+                        </div>
+                        <div class="header__right">
+                            <div class="logoheader">
+                                <a href="index.html" class="header__logo--link">
+                                    <img src="assets/Excel Education Group Logo White Final.svg" class="navbimages"
+                                        alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    <!-- hero slider start -->
+    <div class="rts-hero-slider rt-relative v_2">
+        <div class="rts-hero-slider-active swiper swiper-data" data-swiper='{
+        "slidesPerView":1,
+        "effect": "fade",
+        "loop": false,
+        "speed": 1000,
+        "navigation":{
+            "nextEl":".rt-next",
+            "prevEl":".rt-prev"
+        },
+        "autoplay":{
+            "delay":"7000"
+        }
+}'>
+            <div class="swiper-wrapper">
+                <!-- single slider -->
+                <div class="swiper-slide">
+                    <div class="rts-slider-height rts-slider-overlay rt-relative ">
+                        <div class="rts-slider-bg" data-background="assets/newbanner/4.jpeg"
+                            style="background-image: url(assets/newbanner/4.jpeg);"></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
+                                    <div class="rts-slider">
+                                        <div class="rts-slider-content">
+                                            <h6 class="rts-subtitle"><img src="assets/images/icon/e-cap.svg"
+                                                    alt="education hat"> Welcome to University of Nis!
+                                            </h6>
+                                            <h1 class="rts-slider-title">
+                                                UNLOCK YOUR MBBS DREAMS
+                                                <Span class="text-white qujs">
+                                                    Quality Education, Affordable Investment
+                                                </Span>
+                                            </h1>
+                                            <p class="rts-slider-desc">
+                                                Embark on your medical voyage in Serbia: Gateway to Europe, where
+                                                education meets adventure.
+                                            </p>
+                                            <div class="rts-slider-btn">
+                                                <a href="#contact" class="snch">
 
-<!-- Mirrored from htmlbeans.com/html/educa/home.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 10:51:50 GMT -->
+                                                    <div class="rts-theme-btn btn-arrow">APPLY NOW
+                                                        <span><i class="fa-thin fa-arrow-right"></i></span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- single slider -->
+            <div class="swiper-slide">
+                <div class="rts-slider-height rts-slider-overlay rt-relative ">
+                    <div class="rts-slider-bg" data-background="assets/newbanner/3.jpg"
+                        style="background-image: url(assets/newbanner/3.jpg);"></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
+                                <div class="rts-slider">
+                                    <div class="rts-slider-content">
+                                        <h6 class="rts-subtitle"><img src="assets/images/icon/e-cap.svg" alt=""> Welcome
+                                            to University of Nis!
+                                        </h6>
+                                        <h1 class="rts-slider-title">
+                                            UNLOCK YOUR MBBS DREAMS
+                                            <Span class="text-white qujs">
+                                                Quality Education, Affordable Investment
+                                            </Span>
+                                        </h1>
+                                        <p class="rts-slider-desc">
+                                            Embark on your medical voyage in Serbia: Gateway to Europe, where
+                                            education meets adventure.
+                                        </p>
+                                        <div class="rts-slider-btn">
+                                            <a href="#contact" class="snch">
+
+                                                <div class="rts-theme-btn btn-arrow">APPLY NOW
+                                                    <span><i class="fa-thin fa-arrow-right"></i></span>
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider arrow -->
+    <div class="rts-slider-arrow">
+        <div class="rt-slider-btn rt-next">
+            <i class="fa-regular fa-arrow-left"></i>
+        </div>
+        <div class="rt-slider-btn rt-prev">
+            <i class="fa-regular fa-arrow-right"></i>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- hero slider  end -->
+
+    <a href="https://wa.me/918360754797" class="wppBtn pulse" target="_blank"></a>
+
+
+    <!-- <nameslider> -->
+    <div class="marquee">
+        <div class="single__marque__item v__2">
+            <ul class="single__marque__item__list">
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797<span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+            </ul>
+            <ul class="single__marque__item__list">
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+                <li class="single__marque__item__list__text">Admission Open for September 2024 Intake Call Now: - +91
+                    8360754797 <span><img src="assets/images/icon/marquee__vector.svg" alt=""></span></li>
+            </ul>
+        </div>
+    </div>
+    <!-- About -->
+    <section class="rts-about-university rts-section-padding" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="rts-section">
+                    <div class="col-lg-5 col-md-5" data-aos="flip-up" data-aos-offset="20" data-aos-delay="50"
+                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
+                        data-aos-once="true" data-aos-anchor-placement="top">
+                        <h2 class="rts__section--title">About University</h2>
+                    </div>
+                    <div class="col-lg-7 col-md-7">
+                        <p class="rts-section-description" data-aos="flip-up" data-aos-offset="20" data-aos-delay="50"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
+                            data-aos-once="true" data-aos-anchor-placement="top">
+                            The University of Niš is a public university in Serbia. It was founded in 1965 and consists
+                            of 13 faculties with 1,492 academic staff and around 20,500 students. Since its founding,
+                            the university diploma has been acquired by more than 50,000 students, including 1,300
+                            foreigners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-5 justify-content-md-center justify-content-start">
+                <div class="col-lg-7 col-xl-8 col-md-11">
+                    <div class="rts-about-section">
+                        <img src="assets/images/about/845.jpg" alt="">
+
+
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4 col-md-11">
+                    <div class="rts-about-details">
+                        <div class="single-about-info">
+                            <div class="content">
+                                <h3 class="title" id="number1"> 15000</h3>
+                                <img src="assets/images/icon/11.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <p> University of Nis Students</p>
+                            </div>
+                        </div>
+                        <div class="single-about-info">
+                            <div class="content">
+                                <h3 class="title" id="number2">1300</h3>
+                                <img src="assets/images/icon/12.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <p> University of Nis Faculty and Staff</p>
+                            </div>
+                        </div>
+                        <div class="single-about-info">
+                            <div class="content">
+                                <h3 class="title">#3 </h3>
+                                <img src="assets/images/icon/13.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>Ranking University in Serbia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+
+    <!-- history -->
+
+    <!-- history end-->
+    <!-- program -->
+    <section class="rts__section rts__light rtes-section-padding mt-5" id="course">
+        <div class="container">
+            <div class="row">
+                <div class="rts__section--wrapper">
+                    <h2 class="rts__section--title">Our Programs</h2>
+                    <div class="rts__section--link">
+                        <a href="index.html" class="rts-nbg-btn btn-arrow">more program<span><i
+                                    class="fa-sharp fa-regular fa-arrow-right"></i>
+                            </span></a>
+                    </div>
+                </div>
+            </div>
+            <section class="we-offer-area text-center bg-gray mt-5 ">
+                <div class="top-entry-area relative default-padding text-center">
+                    <div class="container">
+                        <div class="item-box">
+                            <div class="row our-offer-items less-carousel align-items-center ">
+                                <!-- Single Item -->
+                                <div class="col-md-4 col-sm-6 equal-height">
+                                    <div class="itemmeid" data-aos="flip-left" data-aos-offset="20" data-aos-delay="50"
+                                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
+                                        data-aos-once="true" data-aos-anchor-placement="top">
+                                        <i class="fa-solid fa-hospital"></i>
+                                        <h4 class="">Bachelor of Medicine, Bachelor of Surgery </h4>
+                                        <p>
+                                            MBBS: A rigorous undergraduate program preparing future physicians for
+                                            medical
+                                            practice.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="col-lg-4 single-item">
+                                    <div class="imagedoctors">
+                                        <img src="assets/images/1.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="col-md-4 col-sm-6 equal-height">
+                                    <div class="itemmeid" data-aos="flip-left" data-aos-offset="20" data-aos-delay="50"
+                                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
+                                        data-aos-once="true" data-aos-anchor-placement="top">
+                                        <i class="fa-regular fa-scale-unbalanced"></i>
+                                        <h4 class="">Economics</h4>
+                                        <p>
+                                            Economics: Unraveling the intricate web of human choices, resource
+                                            allocation, and
+                                            societal prosperity with analytical precision.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </section>
+
+
+    <section class="rts__section  rtes-section-paddings mt-5 hus" id="serbia">
+        <div class="rts-campus pt--100 rts-campus-bg mobile-padding moving">
+            <div class="container">
+                <div class="row justify-content-sm-center justify-content-lg-start">
+                    <div class="col-lg-6 col-xl-5 col-md-10 col-sm-11">
+                        <div class="rts-left-section">
+                            <h2 class="section-title rt-white mb--55">
+                                Embark on a Journey: Unveiling the Story of Nic University
+                            </h2>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-7 col-md-10 col-sm-11">
+                        <div class="rts-right-section rt-relative">
+                            <p class="rt-white mb--40">"A campus tour of the University of Niš showcases its academic
+                                excellence, cultural diversity, global engagement, innovative facilities, alumni success
+                                stories, and community outreach initiatives, leaving visitors inspired by its impact and
+                                contributions to society".</p>
+                            <video autoplay muted loop playsinline class="rounders
+                      
+                    ">
+                                <source src="assets/images/The University of Serbia NIS (1).mp4" type="video/mp4">
+                            </video>
+                            <div class="rts-round-shape"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rt-shape">
+                    <img class="rt-shape__1" data-speed="0.04" src="assets/images/feature/shape/01.png" alt="">
+                    <img class="shape rt-shape__2" data-speed="0.04" src="assets/images/feature/shape/02.png" alt=""
+                        style="transform: matrix(1, 0, 0, 1, -8.3, 7.02);">
+                    <img class="shape rt-shape__3" data-speed="0.04" src="assets/images/feature/shape/03.png" alt=""
+                        style="transform: matrix(1, 0, 0, 1, -8.3, 7.02);">
+                    <img class="shape rt-shape__4" data-speed="0.04" src="assets/images/feature/shape/04.png" alt=""
+                        style="transform: matrix(1, 0, 0, 1, -8.3, 7.02);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- program end -->
+    <!-- <living> -->
+
+
+
+
+    <div class="rts-history mb-5 mt-5">
+        <div class="container">
+            <div class="row g-5 justify-content-md-center justify-content-start align-items-center mt-5">
+                <div class="col-lg-6 col-md-11">
+                    <div class="rts-video-section height-500 mb--50">
+                        <a href="https://www.youtube.com/watch?v=VZCAKF8IkDc"
+                            class="rts-video-section-player popup-video video-btn">
+                            <i class="fa-sharp fa-solid fa-play"></i>
+                        </a>
+                        <img src="assets/images/about/video-thumb.jpg" alt="video-bg">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-11">
+                    <div class="rts-history-section">
+                        <h2 class="rts__section--title mb--40">OUR CAMPUS TOUR</h2>
+                        <p>
+                            "A campus tour of the University of Niš showcases its academic excellence, cultural
+                            diversity, global engagement, innovative facilities, alumni success stories, and community
+                            outreach initiatives, leaving visitors inspired by its impact and contributions to society.
+                            <span class="d-block mb--30"></span>
+                            Overall, a campus tour at the University of Niš leaves a lasting impression on visitors,
+                            inspiring them with its commitment to academic excellence, cultural diversity, global
+                            engagement, innovation, alumni success, and community outreach. It serves as a testament to
+                            the transformative power of higher education in shaping future generations and creating
+                            positive change in society.”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <LOGOSUNIVERSITY> -->
+    <div class="rts-brand v_1 pb--50">
+        <div class="container">
+            <div class="row">
+                <div class="rts__section--wrapper">
+                    <h2 class="rts__section--title mb--40">universities are recognized by :</h2>
+                    <div class="rts__section--link">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-lg-12 col-md-11">
+                    <div class="rts-brand-slider swiper swiper-data swiper-initialized swiper-horizontal swiper-pointer-events"
+                        data-swiper="{
+                            &quot;slidesPerView&quot;:6,
+                            &quot;loop&quot;: true,
+                            &quot;autoplay&quot;:{
+                                &quot;delay&quot;:&quot;3000&quot;
+                            },
+                            &quot;breakpoints&quot;:{
+                                &quot;320&quot;:{
+                                    &quot;slidesPerView&quot;: 3,
+                                    &quot;centeredSlides&quot;: true
+                                },
+                                &quot;575&quot;:{
+                                    &quot;slidesPerView&quot;: 4,
+                                    &quot;centeredSlides&quot;: true
+                                },
+                                &quot;768&quot;:{
+                                    &quot;slidesPerView&quot;: 5,
+                                    &quot;centeredSlides&quot;: true
+                                },
+                                &quot;991&quot;:{
+                                    &quot;slidesPerView&quot;: 6,
+                                    &quot;centeredSlides&quot;: true
+                                },
+                                &quot;1201&quot;:{
+                                    &quot;slidesPerView&quot;: 6
+                                }
+                            }
+                    }">
+                        <div class="swiper-wrapper" id="swiper-wrapper-108d2179ffe19d8a8" aria-live="off"
+                            style="transition-duration: 0ms; transform: translate3d(-2042.5px, 0px, 0px);">
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="1 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="0">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/01.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="2 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="1">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/02.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="3 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="2">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/03.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="4 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="3">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/04.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="5 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="4">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/05.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" role="group"
+                                aria-label="6 / 6" style="width: 185px; margin-right: 30px;"
+                                data-swiper-slide-index="5">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/06.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate-active" role="group" aria-label="1 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="0">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/01.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate-next" role="group" aria-label="2 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="1">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/02.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="3 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="2">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/03.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="4 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="3">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/04.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide" role="group" aria-label="5 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="4">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/05.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-prev" role="group" aria-label="6 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="5">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/06.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" role="group"
+                                aria-label="1 / 6" style="width: 185px; margin-right: 30px;"
+                                data-swiper-slide-index="0">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/01.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-next" role="group"
+                                aria-label="2 / 6" style="width: 185px; margin-right: 30px;"
+                                data-swiper-slide-index="1">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/02.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="3 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="2">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/03.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="4 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="3">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/04.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate" role="group" aria-label="5 / 6"
+                                style="width: 185px; margin-right: 30px;" data-swiper-slide-index="4">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/05.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" role="group"
+                                aria-label="6 / 6" style="width: 185px; margin-right: 30px;"
+                                data-swiper-slide-index="5">
+                                <div class="single-brand-logo">
+                                    <a href="#">
+                                        <img src="assets/images/brand/06.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- student feedback -->
+    <section class="feedback rts-section-padding" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="rts__section--wrapper v__9">
+                        <h2 class="rts__section--title">OUR STUDENTS FEEDBACK</h2>
+                        <p class="rts__section--description">You'll find something to spark your curiosity and enhance
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- feedback slider -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="rts__testimonial--active swiper swiper-data" data-swiper='{
+                    "slidesPerView":3,
+                    "loop": true,
+                    "speed": 1000,
+                    "pagination":{
+                        "el":".rts__pagination",
+                        "clickable": true
+                    },
+                    "autoplay":{
+                        "delay":"7000"
+                    },
+                    "breakpoints":{
+                        "320":{
+                            "slidesPerView": 1
+                        },
+                        "575":{
+                            "slidesPerView": 1.5
+                        },
+                        "768":{
+                            "slidesPerView": 2
+                        },
+                        "991":{
+                            "slidesPerView": 2.2
+                        },
+                        "1201":{
+                            "slidesPerView": 3
+                        }
+                    }
+                }'>
+                        <div class="swiper-wrapper">
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="rts__single--testimonial">
+                                    <div class="rts__rating--star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-light fa-star"></i>
+                                    </div>
+                                    <p class="rts__single--testimonial--text">
+                                        “Hello Everyone !!!
+                                        <br>I am student of Medical faculty of University of Nis. I am
+                                        4th year student here. My experience here is very good. Teachers are very
+                                        Helpful here and they Explain in Practical classes very well moreover, they
+                                        clear all our doubts. International Department of Foreign Students is very
+                                        helpful , Easy Admission Process. About NIS City its very beautiful and Local
+                                        Speaks English."
+                                    </p>
+                                    <div class="rts__single--testimonial--author">
+                                        <div class="rts__single--testimonial--author--meta">
+                                            <div class="rts__author--img">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <div class="rts__author--info">
+                                                <h5 class="mb-0 kebin"> Ashmit Turka - Zirakpur, Punjab</h5>
+                                                <!-- <span class="designation">Assistant Teacher</span> -->
+                                            </div>
+                                        </div>
+                                        <div class="rts__single--testimonial--quote">
+                                            <img src="assets/images/testimonial/quote.svg" alt="quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single slide end -->
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="rts__single--testimonial">
+                                    <div class="rts__rating--star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-light fa-star"></i>
+                                    </div>
+                                    <p class="rts__single--testimonial--text">
+
+                                        Hi,
+                                        <br>I am 3rd year student here and I came through Excel Education Company. This
+                                        Company is very helpful and they have done all the admission process very
+                                        smoothly and with full transparency also their staff over here is also very
+                                        helpful. Teachers are very supportive.
+                                        <br> Thank you.
+                                    </p>
+                                    <div class="rts__single--testimonial--author">
+                                        <div class="rts__single--testimonial--author--meta">
+                                            <div class="rts__author--img">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <div class="rts__author--info">
+                                                <h5 class="mb-0 sudrm">Sundram , Etawah, Uttar Pradesh</h5>
+                                                <!-- <span class="designation"> Teacher</span> -->
+                                            </div>
+                                        </div>
+                                        <div class="rts__single--testimonial--quote">
+                                            <img src="assets/images/testimonial/quote.svg" alt="quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single slide end -->
+                            <!-- single slide -->
+                            <div class="swiper-slide">
+                                <div class="rts__single--testimonial">
+                                    <div class="rts__rating--star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-light fa-star"></i>
+                                    </div>
+                                    <p class="rts__single--testimonial--text">
+
+                                        Hi Friends ,
+                                        <br>I am Neeraj and I am 3rd year student of University of Nis. I
+                                        searched about this university on Internet and with the Help of Sun Education
+                                        Company I have done all my admission process. Company helps me in admission
+                                        process, Visa Process in India and then Airport Pickup from Belgrade to Nis and
+                                        then in Accommodation also they help me. Overall all process was very smooth.
+                                        <br> Thank you
+
+                                    </p>
+                                    <div class="rts__single--testimonial--author">
+                                        <div class="rts__single--testimonial--author--meta">
+                                            <div class="rts__author--img">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <div class="rts__author--info">
+                                                <h5 class="mb-0 nrj">Neeraj - Kerala</h5>
+                                                <!-- <span class="designation">Assistant Teacher</span> -->
+                                            </div>
+                                        </div>
+                                        <div class="rts__single--testimonial--quote">
+                                            <img src="assets/images/testimonial/quote.svg" alt="quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rts__single--testimonial">
+                                    <div class="rts__rating--star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-light fa-star"></i>
+                                    </div>
+                                    <p class="rts__single--testimonial--text">
+
+                                        Hi,
+                                        <br> I am 3rd year Student of University of Nis. Classes and Lectures I am
+                                        attending which is very good, teachers are very Nice and classes are very
+                                        informative. The Professors are very warm, welcoming and cooperative and
+                                        Language is not problem here mostly people here speak English. Local
+                                        transportation is very nice, comfortable and not expensive and you can get
+                                        around easily.
+                                        <br> Thank you
+
+                                    </p>
+                                    <div class="rts__single--testimonial--author">
+                                        <div class="rts__single--testimonial--author--meta">
+                                            <div class="rts__author--img">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <div class="rts__author--info">
+                                                <h5 class="mb-0 rbng">Rangoli Raj - Delhi , India</h5>
+                                                <!-- <span class="designation">Assistant Teacher</span> -->
+                                            </div>
+                                        </div>
+                                        <div class="rts__single--testimonial--quote">
+                                            <img src="assets/images/testimonial/quote.svg" alt="quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rts__single--testimonial">
+                                    <div class="rts__rating--star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-light fa-star"></i>
+                                    </div>
+                                    <p class="rts__single--testimonial--text">
+
+                                        Hello,
+                                        <br> I am Nasrin. I was studying in Ukraine and I took transfer in University
+                                        of Nis. It’s very familiar here. University and teachers are helpful &
+                                        cooperative. Nis city is very beautiful and people are very nice and kind to us.
+                                        For new students who dreamt about MBBS Course can come Serbia , University of
+                                        Nis and fulfill their dream.
+                                        <br> Thank you
+
+                                    </p>
+                                    <div class="rts__single--testimonial--author">
+                                        <div class="rts__single--testimonial--author--meta">
+                                            <div class="rts__author--img">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <div class="rts__author--info">
+                                                <h5 class="mb-0 nasir">Nasrin Ahmed – Assam
+                                                </h5>
+                                                <!-- <span class="designation">Assistant Teacher</span> -->
+                                            </div>
+                                        </div>
+                                        <div class="rts__single--testimonial--quote">
+                                            <img src="assets/images/testimonial/quote.svg" alt="quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rts__single--testimonial">
+                                    <div class="rts__rating--star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-light fa-star"></i>
+                                    </div>
+                                    <p class="rts__single--testimonial--text">
+
+                                        Hey Guys…..
+                                        <br>I am Kelvin Thomas and I am from Madhya Pradesh. I am Medical student
+                                        here. I came to know about this university through one of my friend and also
+                                        searched about this university. Its very budget friendly as Tuition fees and
+                                        accommodation charges are very nominal as compare to other European Medical
+                                        Universities. I met other international students here from Germany, Turkey, Iran
+                                        etc. I am enjoying the atmosphere.
+                                        <br> Thank you
+
+                                    </p>
+                                    <div class="rts__single--testimonial--author">
+                                        <div class="rts__single--testimonial--author--meta">
+                                            <div class="rts__author--img">
+                                                <i class="fa-solid fa-user"></i>
+                                            </div>
+                                            <div class="rts__author--info">
+                                                <h5 class="mb-0 kelvin">Kelvin Thomas – Madhya Pradesh
+                                                </h5>
+                                                <!-- <span class="designation">Assistant Teacher</span> -->
+                                            </div>
+                                        </div>
+                                        <div class="rts__single--testimonial--quote">
+                                            <img src="assets/images/testimonial/quote.svg" alt="quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single slide end -->
+                        </div>
+                        <div class="rts__pagination v__1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- student feedback end -->
+
+    <section class="we-offer-area text-center bg-gray mt-5 rts-padingrts ">
+        <div class="container">
+            <div class="row our-offer-items less-carousel ">
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="itemmeid Donation">
+                        <i class="fa-solid fa-euro-sign"></i>
+                        <h4 class="mt-3">BEST QUALITY WITH IN BUDGET</h4>
+                        <p class="">
+                            No Donation Direct Admission, Tuition Fee of Less Than 2 Lac Per Year
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="itemmeid Donation">
+                        <i class="fa-sharp fa-solid fa-stethoscope"></i>
+                        <h4 class="mt-3">Eligibility Criteria</h4>
+                        <p class="">
+                            Candidate should have obtained an aggregate of 50% marks in PCB and PCM in 12th Standard and
+                            all reserved category students having an aggregate of 40% marks could also apply.
+                            <!-- (under eligibility option) -->
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="col-md-4 col-sm-6 equal-height">
+                    <div class="itemmeid Donation">
+                        <i class="fa-solid fa-plane-up"></i>
+                        <h4 class="mt-3">100% VISA COUNSELLING HELP </h4>
+                        <p>
+                            Visa Assistance, Authorized Counselling Services
+                        </p>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- apply start -->
+    <section class="rts-application-area moving rts-section-padding1 v_1" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12">
+                    <div class="rts__section--wrapper v__9">
+                        <h2 class="rts__section--title">APPLY FOR ADMISSION</h2>
+                        <p class="rts__section--description">Welcome to the gateway of possibilities your admission to
+                            Kragujevac University. At serbia, we understand.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- application form -->
+            <div class="row ">
+                <div class="col-md-11 col-lg-6 col-xl-7 align-items-center justify-content-center d-grid">
+                    <div class="rts-admission-form-image">
+                        <div class="d-flex align-items-center justify-content-center">
+
+                            <img src="assets/images/brand/Web Celebrating.jpg" alt="">
+                        </div>
+                        <div class=" align-items-center justify-content-center">
+
+                            <h4 class="mt-5">For Further Information Please Login </h4>
+
+                        </div>
+                        <p class="exceleducation rts-theme-btn mt-5">
+                            <a href="https://exceleducationgroup.org/">
+                                www.exceleducationgroup.org
+                            </a>
+                        </p>
+
+                        <span>
+                        </span>
+                    </div>
+
+                </div>
+
+                <div class="col-md-11 col-lg-6 col-xl-5">
+                    <div class="rts-application-form">
+                        <div class="rts-application-form-content">
+                            <h5 class="rts__section--title  mb--25 appis">Application Form</h5>
+                            <form id="emailForm" onsubmit="sendCase(); return false;" class="rts-form">
+                                <div class="rts-input rt-flex">
+                                    <div class="single-input">
+                                        <input type="text" id="firstname" name="firstname" placeholder="First Name">
+
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+
+                                    </div>
+                                </div>
+                                <div class="rts-input rt-flex">
+                                    <div class="single-input">
+                                        <input type="email" name="email" id="email" placeholder="Email..">
+
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="number" id="mobile" name="mobile" maxlength="10"
+                                            placeholder="Phone">
+
+                                    </div>
+                                </div>
+                                <div class="rts-input rt-flex">
+
+                                    <div class="single-input">
+                                        <input type="text" name="city" id="city" placeholder="City">
+                                    </div>
+                                    <div class="single-input">
+                                        <input type="text" name="neet" id="neet" placeholder="NEET Marks (if appeared)">
+                                    </div>
+                                </div>
+
+
+                                <div class="rts-input w-full">
+                                    <div class="single-input">
+                                        <textarea name="msg" id="message" placeholder="Enter Your Comments"></textarea>
+
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button onclick="sendCase()" type="submit"
+                                        class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">APPLY NOW <span><i
+                                                class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rt-shape">
+                <img src="assets/images/feature/shape/01.svg" data-speed="0.04" alt="shape" class="rt-shape__1">
+                <img src="assets/images/feature/shape/02.svg" data-speed="0.04" alt="shape" class="shape rt-shape__2"
+                    style="transform: matrix(1, 0, 0, 1, 7.98, 15.2);">
+                <img src="assets/images/feature/shape/03.svg" data-speed="0.04" alt="shape" class="shape rt-shape__3"
+                    style="transform: matrix(1, 0, 0, 1, 7.98, 15.2);">
+                <img src="assets/images/feature/shape/04.svg" data-speed="0.04" alt="shape" class="shape rt-shape__4"
+                    style="transform: matrix(1, 0, 0, 1, 7.98, 15.2);">
+                <img src="assets/images/feature/shape/05.svg" data-speed="0.04" alt="shape" class="shape rt-shape__5"
+                    style="transform: matrix(1, 0, 0, 1, 7.98, 15.2);">
+            </div>
+        </div>
+    </section>
+    <!-- apply end -->
+    <div class="rts-newsletter v_1 rts-cta-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="rts-newsletter-box" style="background-image: url(assets/images/newsletter/bg-1.jpg);">
+                        <div class="rts-newsletter-box-content">
+                            <h4 class="newsletter-title">Make Your Dream Come True…Become A Doctor
+                            </h4>
+                            <div class="newsletter-form w-530">
+                                <form action="#">
+                                    <input type="email" name="subscription" id="subscription"
+                                        placeholder="Enter Your mail" required="">
+                                    <button type="submit" class="rts-nbg-btn btn-arrow">Subscribe <span><i
+                                                class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer v__1">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <div class="footer__widget--logo">
+                            <a href="index.html"><img src="assets/images/logo/University of Nis White Logo.svg"
+                                    class="logofooter" alt="logo"></a>
+                        </div>
+                        <p class="footer__widget--description ">
+                            We are passionate education dedicated to providing high-quality resources learners
+                            all backgrounds.
+                        </p>
+                        <div class="footer__widget--social">
+                            <ul class="social">
+                                <li class="social__link"><a href="https://www.facebook.com/exceledugrp"><i
+                                            class="fa-brands fa-facebook"></i></a></li>
+                                <li class="social__link"><a href="https://www.instagram.com/excel_education_group/"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li class="social__link"><a href="https://exceleducationgroup.org/"><i
+                                            class="fa-solid fa-browser"></i></a></li>
+                                <li class="social__link"><a href="https://www.youtube.com/@exceleducationgroup"><i
+                                            class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6 class="footer__widget--title">Visit US</h6>
+                        <div class="footer__widget--menu">
+
+                            <ul>
+                                <li>Delhi office :- #17-18, Ground Floor , 10/54 , B.D. Chambers D.B.
+                                    Gupta Road, Karol Bagh, New Delhi – 110005</li>
+                                <li>Contact :- +91 8360754797</li>
+                                <li>Punjab office :- SSS – 88, Phase 9, (Near Majestic Hotel)
+                                    S.A.S. Nagar, Mohali – Punjab – 160063</li>
+                                <li>Contact :- +91 9815875173</li>
+                                <li> Serbia office :- +381 611934884</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6 class="footer__widget--title">Quick Button</h6>
+                        <div class="footer__widget--button">
+                            <a href="#contact" class="cta__button active">APPLYING</a>
+                            <a href="index.html" class="cta__button">HOME PAGE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- footer copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="copyright__wrapper">
+                        <p>Copyright &copy; 2024 All Rights Reserved by <a href="index.html">Nis</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer copyright end -->
+
+
+    <!-- offcanvase menu -->
+    <!-- header style two -->
+    <div id="side-bar" class="side-bar">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+
+        <div class="inner-main-wrapper-desk">
+
+            <div class="inner-content">
+
+                <div class="offcanvase__banner mt--50">
+                    <div class="offcanvase__banner--content">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+
+
+                    <li class="has-droupdown">
+                        <a href="#about" class="main">About</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#course" class="main">Course</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#serbia" class="main">Serbia</a>
+                    </li>
+
+                    <li class="has-droupdown">
+                        <a href="#testimonial" class="main">Testimonial</a>
+                    </li>
+                    <li class="has-droupdown">
+                        <a href="#contact" class="main">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+    <!-- rts backto top start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- rts back to top end -->
+    <div id="anywhere-home" class="">
+    </div>
+
+
+    <!-- scripts -->
+    <!-- jquery js -->
+    <script src="assets/js/vendor/jquery.min.js"></script>
+    <!-- bootstrap 5.0.2 -->
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <!-- jquery ui js -->
+    <script src="assets/js/vendor/jquery-ui.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/vendor/waw.js"></script>
+    <!-- mobile menu -->
+    <script src="assets/js/vendor/metismenu.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/vendor/magnifying-popup.js"></script>
+    <!-- swiper JS 10.2.0 -->
+    <script src="assets/js/plugins/swiper.js"></script>
+    <!-- counterup -->
+    <script src="assets/js/plugins/counterup.js"></script>
+    <script src="assets/js/vendor/waypoint.js"></script>
+    <!-- isotop mesonary -->
+    <script src="assets/js/plugins/isotop.js"></script>
+    <script src="assets/js/plugins/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/plugins/sticky-sidebar.js"></script>
+    <script src="assets/js/plugins/resize-sensor.js"></script>
+    <script src="assets/js/plugins/twinmax.js"></script>
+    <!-- dymanic Contact Form -->
+    <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/plugins/nice-select.min.js"></script>
+    <!-- main Js -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    <script>
+        // Function to animate numbers from a starting point to the target number
+        function animateNumber(id, start, end, duration) {
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                document.getElementById(id).textContent = Math.floor(progress * (end - start) + start).toLocaleString();
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
+            window.requestAnimationFrame(step);
+        }
+
+        // Intersection Observer configuration
+        const options = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5 // Percentage of the target element's visibility required to trigger the animation
+        };
+
+        // Callback function to start animation when the section becomes visible
+        function startAnimation(entries, observer) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    animateNumber('number1', 0, 15000, 2000); // Start from 0, end at 20559, duration 2000ms
+                    animateNumber('number2', 0, 1300, 2000); // Start from 0, end at 1492, duration 2000ms
+                    animateNumber('number3', 0, 3, 2000); // Start from 0, end at 300000, duration 2000ms
+                    observer.unobserve(entry.target); // Stop observing once animation starts
+                }
+            });
+        }
+
+        // Initialize Intersection Observer
+        const observer = new IntersectionObserver(startAnimation, options);
+
+        // Target the section containing the numbers
+        const section = document.querySelector('.single-about-info');
+
+        // Start observing the section
+        observer.observe(section);
+    </script>
+
+    <script>
+        // emailjs
+
+
+        function sendCase() {
+            let firstname = document.getElementById("firstname").value;
+            let lastname = document.getElementById("lastname").value;
+            let neet = document.getElementById("neet").value;
+            let email = document.getElementById("email").value;
+            let mobile = document.getElementById("mobile").value;
+            let city = document.getElementById("city").value;
+            let message = document.getElementById("message").value;
+            // Regular expressions for validation
+            let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            let mobileRegex = /^\d{10}$/;
+            // Validate each field
+            if (firstname === "" || lastname === "" || neet === "" || email === "" || mobile === "" || city === "" || message === "") {
+                alert("Please fill in all fields.");
+                return;
+            }
+            if (!emailRegex.test(email)) {
+                alert("Please enter a valid email address.");
+                return;
+            }
+            if (!mobileRegex.test(mobile)) {
+                alert("Please enter a valid 10-digit mobile number.");
+                return;
+            }
+
+            emailjs.init("fSjEBmQ1V-58CY5U6"); // Replace "your_user_id" with your actual user ID
+            let params = {
+                firstname: firstname,
+                lastname: lastname,
+                neet: neet,
+                email: email,
+                mobile: mobile,
+                city: city,
+                message: message
+            };
+            let serviceID = "service_sp6umke"; // Replace "your_service_id" with your actual service ID
+            let templateID = "template_st9ep86"; // Replace "your_template_id" with your actual template ID
+
+            emailjs.send(serviceID, templateID, params)
+                .then(function (response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert("Email sent successfully!");
+                    document.getElementById("emailForm").reset();
+                })
+                .catch(function (error) {
+                    console.log('FAILED...', error);
+                    alert("Error sending email. Please try again later.");
+                });
+        }
+
+    </script>
+
+    <!-- whatspp -->
+    <script>$(document).scroll(function () {
+            var i = $(this).scrollTop();
+            if (i > 100) {
+                $('.wppBtn').fadeIn();
+            } else {
+                $('.wppBtn').fadeOut();
+            }
+        });</script>
+    <!-- whatsppend -->
+    <!-- AOS start -->
+    <script>
+        AOS.init();
+    </script>
+    <!-- AOS End -->
+</body>
 
 </html>
