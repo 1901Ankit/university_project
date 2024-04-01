@@ -106,8 +106,8 @@
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-background="assets/newbanner/4.jpeg"
-                            style="background-image: url(assets/newbanner/4.jpeg);"></div>
+                        <div class="rts-slider-bg" data-background="assets/newbanner/01.jpg"
+                            style="background-image: url(assets/newbanner/01.jpg);"></div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
@@ -144,8 +144,8 @@
             <!-- single slider -->
             <div class="swiper-slide">
                 <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                    <div class="rts-slider-bg" data-background="assets/newbanner/3.jpg"
-                        style="background-image: url(assets/newbanner/3.jpg);"></div>
+                    <div class="rts-slider-bg" data-background="assets/newbanner/sunny-urban-landscape.jpg"
+                        style="background-image: url(assets/newbanner/sunny-urban-landscape.jpg);"></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
@@ -260,7 +260,7 @@
                     <div class="rts-about-details">
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title" id="number1"> 15000</h3>
+                                <h3 class="title" id="number1"> 20,500 </h3>
                                 <img src="assets/images/icon/11.svg" alt="">
                             </div>
                             <div class="desc">
@@ -269,7 +269,7 @@
                         </div>
                         <div class="single-about-info">
                             <div class="content">
-                                <h3 class="title" id="number2">1300</h3>
+                                <h3 class="title" id="number2"> 1,492</h3>
                                 <img src="assets/images/icon/12.svg" alt="">
                             </div>
                             <div class="desc">
@@ -1298,8 +1298,8 @@
         function startAnimation(entries, observer) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    animateNumber('number1', 0, 15000, 2000); // Start from 0, end at 20559, duration 2000ms
-                    animateNumber('number2', 0, 1300, 2000); // Start from 0, end at 1492, duration 2000ms
+                    animateNumber('number1', 0, 20500 , 2000); // Start from 0, end at 20559, duration 2000ms
+                    animateNumber('number2', 0, 1492 , 2000); // Start from 0, end at 1492, duration 2000ms
                     animateNumber('number3', 0, 3, 2000); // Start from 0, end at 300000, duration 2000ms
                     observer.unobserve(entry.target); // Stop observing once animation starts
                 }
@@ -1345,7 +1345,7 @@
                 return;
             }
 
-            emailjs.init("fSjEBmQ1V-58CY5U6"); // Replace "your_user_id" with your actual user ID
+            emailjs.init("QDtVOSgDLmjCOF3eb");
             let params = {
                 firstname: firstname,
                 lastname: lastname,
@@ -1355,17 +1355,17 @@
                 city: city,
                 message: message
             };
-            let serviceID = "service_sp6umke"; // Replace "your_service_id" with your actual service ID
-            let templateID = "template_st9ep86"; // Replace "your_template_id" with your actual template ID
+            let serviceID = "service_so0932b"; // Replace "your_service_id" with your actual service ID
+            let templateID = "template_sgzzu7h"; // Replace "your_template_id" with your actual template ID
 
             emailjs.send(serviceID, templateID, params)
                 .then(function (response) {
-                    console.log('SUCCESS!', response.status, response.text);
+                    // console.log('SUCCESS!', response.status, response.text);
                     alert("Email sent successfully!");
-                    document.getElementById("emailForm").reset();
+                    // document.getElementById("emailForm").reset();
                 })
                 .catch(function (error) {
-                    console.log('FAILED...', error);
+                    // console.log('FAILED...', error);
                     alert("Error sending email. Please try again later.");
                 });
         }
