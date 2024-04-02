@@ -334,6 +334,12 @@ p {
   .navbimages1 {
     width: 30%;
   }
+  .thnw{
+    font-size: 24px !important;
+  }
+  .thnw1{
+    font-size: 22px !important;
+  }
   .kebin {
     padding: 0px 0px !important;
   }
@@ -25764,4 +25770,13 @@ xclip
 }
 .kelvin {
   padding: 40px 0px;
+}
+/* thnqyou */
+.thnw{
+  font-size:55px;
+  font-weight: 500;
+}
+.thnw1{
+  font-size:35px;
+  font-weight: 500;
 }

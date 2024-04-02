@@ -1050,7 +1050,7 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button onclick="sendCase()" type="submit"
+                                    <button type="submit"
                                         class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">APPLY NOW <span><i
                                                 class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
                                 </div>
@@ -1364,9 +1364,10 @@
 
             emailjs.send(serviceID, templateID, params)
                 .then(function (response) {
-                    // console.log('SUCCESS!', response.status, response.text);
-                    alert("Email sent successfully!");
-                    // document.getElementById("emailForm").reset();
+                    document.getElementById("emailForm").reset();
+                    setTimeout(function () {
+                        window.location.href = "thank-you.html";
+                    }, 1000);
                 })
                 .catch(function (error) {
                     // console.log('FAILED...', error);
