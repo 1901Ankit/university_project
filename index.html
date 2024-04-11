@@ -91,23 +91,24 @@
     <div class="rts-hero-slider rt-relative v_2">
         <div class="rts-hero-slider-active swiper swiper-data" data-swiper='{
         "slidesPerView":1,
-        "effect": "fade",
         "loop": false,
-        "speed": 1000,
+        "speed": 800,
         "navigation":{
             "nextEl":".rt-next",
             "prevEl":".rt-prev"
         },
         "autoplay":{
-            "delay":"7000"
+            "delay":"3000"
         }
 }'>
             <div class="swiper-wrapper">
                 <!-- single slider -->
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                        <div class="rts-slider-bg" data-background="assets/newbanner/01.jpg"
-                            style="background-image: url(assets/newbanner/01.jpg);"></div>
+                        <div class="rts-slider-bg"
+                            data-background="https://qawsedrftgyhujikl.s3.ap-south-1.amazonaws.com/01.jpg"
+                            style="background-image: url(https://qawsedrftgyhujikl.s3.ap-south-1.amazonaws.com/01.jpg);">
+                        </div>
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
@@ -144,8 +145,10 @@
             <!-- single slider -->
             <div class="swiper-slide">
                 <div class="rts-slider-height rts-slider-overlay rt-relative ">
-                    <div class="rts-slider-bg" data-background="assets/newbanner/sunny-urban-landscape.jpg"
-                        style="background-image: url(assets/newbanner/sunny-urban-landscape.jpg);"></div>
+                    <div class="rts-slider-bg"
+                        data-background="https://qawsedrftgyhujikl.s3.ap-south-1.amazonaws.com/suny.jpg"
+                        style="background-image: url(https://qawsedrftgyhujikl.s3.ap-south-1.amazonaws.com/suny.jpg);">
+                    </div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
@@ -231,15 +234,11 @@
         <div class="container">
             <div class="row">
                 <div class="rts-section">
-                    <div class="col-lg-5 col-md-5" data-aos="flip-up" data-aos-offset="20" data-aos-delay="50"
-                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
-                        data-aos-once="true" data-aos-anchor-placement="top">
+                    <div class="col-lg-5 col-md-5">
                         <h2 class="rts__section--title">About University</h2>
                     </div>
                     <div class="col-lg-7 col-md-7">
-                        <p class="rts-section-description" data-aos="flip-up" data-aos-offset="20" data-aos-delay="50"
-                            data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
-                            data-aos-once="true" data-aos-anchor-placement="top">
+                        <p class="rts-section-description">
                             The University of Niš is a public university in Serbia. It was founded in 1965 and consists
                             of 13 faculties with 1,492 academic staff and around 20,500 students. Since its founding,
                             the university diploma has been acquired by more than 50,000 students, including 1,300
@@ -316,9 +315,7 @@
                             <div class="row our-offer-items less-carousel align-items-center ">
                                 <!-- Single Item -->
                                 <div class="col-md-4 col-sm-6 equal-height">
-                                    <div class="itemmeid" data-aos="flip-left" data-aos-offset="20" data-aos-delay="50"
-                                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
-                                        data-aos-once="true" data-aos-anchor-placement="top">
+                                    <div class="itemmeid">
                                         <i class="fa-solid fa-hospital"></i>
                                         <h4 class="">Bachelor of Medicine, Bachelor of Surgery </h4>
                                         <p>
@@ -338,9 +335,7 @@
                                 <!-- End Single Item -->
                                 <!-- Single Item -->
                                 <div class="col-md-4 col-sm-6 equal-height">
-                                    <div class="itemmeid" data-aos="flip-left" data-aos-offset="20" data-aos-delay="50"
-                                        data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="false"
-                                        data-aos-once="true" data-aos-anchor-placement="top">
+                                    <div class="itemmeid">
                                         <i class="fa-regular fa-scale-unbalanced"></i>
                                         <h4 class="">Economics</h4>
                                         <p>
@@ -383,7 +378,7 @@
                             <video autoplay muted loop playsinline class="rounders
                       
                     ">
-                                <source src="assets/images/The University of Serbia NIS (1).mp4" type="video/mp4">
+                                <source src="assets/images/The University of Serbia NIS 11mb.mp4" type="video/mp4">
                             </video>
                             <div class="rts-round-shape"></div>
                         </div>
@@ -1027,8 +1022,7 @@
 
                                     </div>
                                     <div class="single-input">
-                                        <input type="tel" id="mobile" name="mobile" maxlength="10"
-                                            placeholder="Phone">
+                                        <input type="tel" id="mobile" name="mobile" maxlength="10" placeholder="Phone">
 
                                     </div>
                                 </div>
@@ -1050,9 +1044,8 @@
                                     </div>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit"
-                                        class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">APPLY NOW <span><i
-                                                class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
+                                    <button type="submit" class="rts-theme-btn rts-nbg-btn btn-arrow v2 full-btn">APPLY
+                                        NOW <span><i class="fa-sharp fa-regular fa-arrow-right"></i></span></button>
                                 </div>
                             </form>
                         </div>
@@ -1298,8 +1291,8 @@
         function startAnimation(entries, observer) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    animateNumber('number1', 0, 20500 , 2000); // Start from 0, end at 20559, duration 2000ms
-                    animateNumber('number2', 0, 1492 , 2000); // Start from 0, end at 1492, duration 2000ms
+                    animateNumber('number1', 0, 20500, 2000); // Start from 0, end at 20559, duration 2000ms
+                    animateNumber('number2', 0, 1492, 2000); // Start from 0, end at 1492, duration 2000ms
                     animateNumber('number3', 0, 3, 2000); // Start from 0, end at 300000, duration 2000ms
                     observer.unobserve(entry.target); // Stop observing once animation starts
                 }
@@ -1345,9 +1338,9 @@
                 return;
             }
             if (mobile.startsWith("1") || mobile.startsWith("2") || mobile.startsWith("3") || mobile.startsWith("4") || mobile.startsWith("5")) {
-        alert("Mobile number cannot start with digits 1 to 5.");
-        return;
-    }
+                alert("Mobile number cannot start with digits 1 to 5.");
+                return;
+            }
 
             emailjs.init("QDtVOSgDLmjCOF3eb");
             let params = {
@@ -1374,13 +1367,13 @@
                     alert("Error sending email. Please try again later.");
                 });
         }
-        document.getElementById("mobile").addEventListener("input", function(event) {
-    let mobileInput = event.target.value;
-    // If mobile number starts with digits 1 to 5, remove the last entered character
-    if (mobileInput.startsWith("1") || mobileInput.startsWith("2") || mobileInput.startsWith("3") || mobileInput.startsWith("4") || mobileInput.startsWith("5")) {
-        event.target.value = mobileInput.slice(0, -1);
-    }
-});
+        document.getElementById("mobile").addEventListener("input", function (event) {
+            let mobileInput = event.target.value;
+            // If mobile number starts with digits 1 to 5, remove the last entered character
+            if (mobileInput.startsWith("1") || mobileInput.startsWith("2") || mobileInput.startsWith("3") || mobileInput.startsWith("4") || mobileInput.startsWith("5")) {
+                event.target.value = mobileInput.slice(0, -1);
+            }
+        });
 
     </script>
 
