@@ -25590,6 +25590,10 @@ xclip
   background-color: #ffffff !important;
   color: #890c25 !important;
 }
+.we-offer-area.text-center .itemmeid:hover ul li {
+  color: #ffffff !important;
+  /* color: #890c25 !important; */
+}
 
 .we-offer-area.text-left .itemmeid i {
   background: #00a01d none repeat scroll 0 0;

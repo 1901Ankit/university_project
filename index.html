@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University of Nis</title>
+    <title>Study In Serbia | University of NIS</title>
+
+    <meta name="description"
+        content="Best Courses Offered at University of Nis. International student needs to study a Master in university of NIS. Apply now and get discount.">
+
+    <meta name="keywords"
+        content="university of NIS, university of NIS serbia, medical university NIS serbia, NIS medical university serbia, NIS serbia medical university, NIS university, NIS university serbia, university of NIS faculty of medicine, university of NIS ranking, pharmacy in serbia, nursing in serbia, study pharmacy in serbia, study nursing in serbia, computer engg. in serbia , study economics in serbia">
+
+    <meta name="author" content="University of NIS">
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/University of Nis Logo.svg">
     <!-- animate css -->
     <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
@@ -30,9 +38,34 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M8HFHWCX');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-802472712">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'AW-802472712');
+    </script>
+  
 </head>
 
 <body class="page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8HFHWCX" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- header area start -->
     <header class="header header__sticky v__1">
         <div class="container-fluid">
@@ -92,13 +125,13 @@
         <div class="rts-hero-slider-active swiper swiper-data" data-swiper='{
         "slidesPerView":1,
         "loop": false,
-        "speed": 500,
+        "speed": 2000,
         "navigation":{
             "nextEl":".rt-next",
             "prevEl":".rt-prev"
         },
         "autoplay":{
-            "delay":"3000"
+            "delay":"4000"
         }
 }'>
             <div class="swiper-wrapper">
@@ -924,7 +957,7 @@
                     <div class="itemmeid Donation">
                         <i class="fa-solid fa-euro-sign"></i>
                         <h4 class="mt-3">BEST QUALITY WITH IN BUDGET</h4>
-                        <ul class="tution__single--box--feature">
+                        <ul class="tution__single--box--feature tutio">
                             <li>
 
                                 <span>
@@ -933,7 +966,7 @@
                             </li>
                             <li>
 
-                                <span> ⁠Course Duration 6 Year</span>
+                                <span> Course Duration: 5.5 Years + 1 Year Internship</span>
                             </li>
                             <li>
 
@@ -968,7 +1001,7 @@
                             <li>
 
                                 <span>
-                                    Visa Assistance 
+                                    Visa Assistance
 
                                 </span>
                             </li>
@@ -1421,6 +1454,43 @@
         AOS.init();
     </script>
     <!-- AOS End -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Wait for the DOM to be fully loaded
+        document.addEventListener("DOMContentLoaded", function () {
+            // Lazy load images when they are about to enter the viewport
+            const lazyLoad = target => {
+                const io = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            const src = img.getAttribute('data-src');
+                            img.setAttribute('src', src);
+                            observer.disconnect();
+                        }
+                    });
+                });
+                io.observe(target);
+            };
+
+            const lazyImages = document.querySelectorAll('[data-src]');
+            lazyImages.forEach(lazyLoad);
+
+            // Initialize Swiper after the page has loaded
+            const swiper = new Swiper('#swiper-container', {
+                slidesPerView: 1,
+                loop: true,
+                effect: 'fade',
+                autoplay: {
+                    delay: 4000
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        });
+    </script>
 </body>
 
 </html>
